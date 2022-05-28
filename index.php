@@ -157,7 +157,7 @@
 			<p> Tất cả sản phẩm </p>
 			<div class="product">
 				<?php 
-				$connect = mysqli_connect('localhost','root','','mydb');
+				$connect = mysqli_connect('3.132.234.157','CC_ASM','123@123a','CC_ASM');
 				if(!$connect){
 					echo "Kết nối thất bại";
 				}
